@@ -2,7 +2,7 @@
 
 This is a quick little project I did after finding a couple quick quirks about the software while helping out a friend.
 
-Main idea is the license check is like the news article pop ups where they prevent you from reading further but if you just hop in chrome dev tools and remove the dev the popup is wrapped in or set its display to none in CSS then you can read on.
+Main idea is the license check is like the news article pop ups where they prevent you from reading further but if you just hop in chrome dev tools and remove the div the popup is wrapped in or set its display to none in CSS then you can read on.
 
 Minitab does a similar thing, the entire UI is still active when the license check pops up and all that happens is the main windows get disabled and click events redirect to the license window. Because of this you can do two things super easily.
 
